@@ -25,7 +25,13 @@
     z-index:1;
 }
 
+.carousel .backgrounds .item img{
+    width: 660px;
+    background-size: cover;
+
+}
 .carousel .backgrounds .item_1{
+
 }
 
 .carousel .backgrounds .item_2{
@@ -35,8 +41,8 @@
 }
 
 .carousel .panel{
-	background: #1d1d1d;
-    color: #fff;
+	background: #f3f6f4;
+    color: #000;
     position:absolute;
     right: 0;
     top:0;
@@ -54,7 +60,7 @@
 }
 
 .carousel .panel .paging a{
-    color: #4c4c4c;
+    color: #000;
     font-size: 1.1em;
 }
 
@@ -104,12 +110,12 @@
 }
 
 .carousel .panel .paging #numbers a {
-	color: #666;
+	color: #000;
     padding: 0 5px 0 5px;
 }
 
 .carousel .panel .paging #numbers a.selected {
-    color: #fff;
+    color: #000;
 }
 
 
@@ -121,6 +127,7 @@
     width: 225px;
     overflow:hidden;
     height: 200px;
+
 }
 
 .carousel .panel .details_wrapper .details{
@@ -138,15 +145,15 @@
     font-size: 1.9em;
     line-height: 1.2em;
     margin: 0 0 5px 0;
-	color: #fff;
+	color: #000;
 }
 
 .carousel .panel .details_wrapper .details h2 a {
-	color: #fff;
+	color: #000;
 }
 
 .carousel .panel .details_wrapper .details p {
-	color: #ccc;
+	color: #000;
 }
 
 .carousel .panel .details_wrapper .details a.more{

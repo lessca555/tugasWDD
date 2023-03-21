@@ -24,11 +24,11 @@
 	line-height: 40px;
 	margin-right: 1px;
 	font-size: 12px;
-	color: #ccc;	
+	color: #000;	
 	text-decoration: none;
 	outline: none;
 	text-align: center;
-	background: url(images/templatemo_menu_divider.png) right center no-repeat
+	background: url(images/templatemo_menu_divider.png) right center no-repeat;
 }
 
 * html .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
@@ -37,7 +37,7 @@ display: inline-block;
 
 .ddsmoothmenu ul li a.selected, .ddsmoothmenu ul li a:hover { /*CSS class that's dynamically added to the currently active menu items' LI A element*/
 	color: #fff;
-	background: url(../images/templatemo_menu_hover.jpg) repeat-x
+	background-color: #ea9999;
 }
 
 /*1st sub level menu*/
@@ -47,8 +47,7 @@ display: inline-block;
 	padding: 10px 0 0;
 	display: none; /*collapse all sub menus to begin with*/
 	visibility: hidden;
-	background: #313131;
-	border-bottom: 4px solid #000
+	background: #f3f6f4;
 }
 
 /*Sub level menu list items (undo style from Top level List Items)*/
@@ -72,15 +71,13 @@ top: 0;
 	font-size: 11px;	
 	text-align: left;
 	background: none;
-	color: #ccc;
-	border-bottom: 1px solid #444;
-	border-top: 1px solid #222;
+	color: #000;
 }
 
 .ddsmoothmenu ul li ul li a.selected, .ddsmoothmenu ul li ul li a:hover {
 	color: #fff;
 	font-weight: 700;
-	background: #222;
+	background: #ea9999;
 }
 
 /* Holly Hack for IE \*/

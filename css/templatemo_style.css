@@ -9,9 +9,8 @@ body {
 	font-family: Tahoma, Geneva, sans-serif;
 	font-size: 12px;
 	line-height: 1.4em; 
-	background-color: #2e2e2e;
+	background-color: #fff;
 	background-repeat: repeat;
-	background-image: url(../images/templatemo_body.jpg)
 }
 
 a, a:link, a:visited { 
@@ -154,7 +153,7 @@ h6 {
 	width: 100%;
 	height: 77px;
 	margin-bottom: 10px;
-	background: url(../images/templatemo_menu.jpg) repeat-x
+	background-color: #f3f6f4;
 }
 
 #templatemo_middle {
@@ -183,8 +182,14 @@ h6 {
 	width: 920px;
 	text-align: center;	
 	padding: 9px 19px;
-	background: #121212;
-	border: 1px solid #3a3a3a
+	background: #ea9999;
+	color: #fff;
+	font-size: 1rem;
+	position: absolute;
+}
+
+#templatemo_footer a{
+	color: #fff;
 }
 
 #site_title { 
@@ -197,14 +202,15 @@ h6 {
 }
 
 #site_title h1 a { 
-	display: block; 
-	width: 164px; 
+	display: block;  
 	height: 20px; 
-	font-size: 12px; 
-	text-indent: -10000px; 
-	color: #999; 
+	font-size: 2rem; 
+	color: #000; 
 	text-align: left; 
-	background: url(../images/templatemo_logo.png) no-repeat top left; 
+}
+
+#site_title h1 a span{ 
+	color: #ea9999;
 }
 
 #header_right { 
@@ -247,25 +253,25 @@ h6 {
 	padding: 0 5px;
 	font-variant: normal;
 	border: 1px solid #666;	
-	background: #333;
+	background: #fff;
 }
 
 #templatemo_search .sub_btn {
 	float: right;
 	display: block;
 	color: #fff;
- 	height: 26px;
 	font-size: 11px;
 	font-weight: 700;
 	line-height: 26px;
 	cursor: pointer;
-	border: 1px solid #333;
-	background: #0ec4f7;	
+	background: #ea9999;	
+	outline: none;
+	border: none;
 }
 
 .sidebar_box {
 	position: relative;
-	background: #4c4a4a;
+	background: #f3f6f4;
 	margin-bottom: 36px;
 }
 
@@ -276,7 +282,6 @@ h6 {
 	width: 220px; 
 	height: 20px; 
 	margin-bottom: 0; 
-	background: url(../images/templatemo_sidebar_header.jpg) no-repeat; color: #999 
 }
 
 .sidebar_box span.bottom {
@@ -302,8 +307,6 @@ h6 {
 	display: block; 
 	margin: 0; 
 	padding: 3px 0; 
-	border-top: 1px solid #595858; 
-	border-bottom: 1px solid #343434;
 }
 
 #sidebar .sidebar_list li.first { 
@@ -315,18 +318,18 @@ h6 {
 }
 
 #sidebar .sidebar_list li a { 
-	color: #d6d3d3;   
+	color: #000;   
 }
 
 #sidebar .sidebar_list li a:hover { 
-	color: #fff; 
+	color: #ea9999; 
 	text-decoration: none; 
 }
 
 .bs_box { clear: both; margin-bottom: 20px }
 .bs_box img { float: left; margin-right: 10px; border: 4px solid #3d3d3d }
 .bs_box h4 { margin-bottom: 0 }
-.bs_box h4 a { font-size: 12px; color: #08aee3; font-weight: 700}
+.bs_box h4 a { font-size: 12px; color: #000; font-weight: 700}
 .bs_box .price { font-size: 12px; font-weight: 700; color: #fff }
 
 .product_box {
@@ -361,7 +364,7 @@ h6 {
 	line-height: 28px;	
 	text-align: center;
 	color: #fff;
-	background: url(../images/add_to_cart.jpg)
+	background-color: #ea9999;
 }
 
 .product_box .detail {
@@ -371,7 +374,7 @@ h6 {
 	height: 28px;
 	line-height: 28px;
 	text-align: center;	
-	background: url(../images/detail.jpg)
+	color: #000;
 }
 
 .checkout input { 
@@ -442,12 +445,4 @@ h6 {
 
 .no_margin_right { 
 	margin-right: 0; 
-}
-
-#templatemo_footer { 
-	color: #707070; 
-}
-
-#templatemo_footer a {
-	color: #999; 
 }
