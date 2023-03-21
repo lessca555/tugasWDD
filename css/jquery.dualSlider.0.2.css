@@ -158,6 +158,12 @@
 
 .carousel .panel .details_wrapper .details a.more{
     font-size:1.1em;
+    color: #000;
 }   
+
+.carousel .panel .details_wrapper .details a.more:hover{
+    background-color: #ea9999;
+    color: #fff;
+}
 
 /* END CAROUSEL */

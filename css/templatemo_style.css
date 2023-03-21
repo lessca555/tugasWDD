@@ -176,6 +176,10 @@ h6 {
 	padding: 14px; 
 }
 
+#content .title { 
+	background-color: #ea9999;
+}
+
 #sidebar { width: 240px }
 
 #templatemo_footer {
@@ -219,7 +223,7 @@ h6 {
 }
 
 #header_right a { 
-	color: #ccc; 
+	color: #000; 
 }
 
 #menu_second_bar { 
@@ -275,6 +279,10 @@ h6 {
 	margin-bottom: 36px;
 }
 
+.sidebar_box .title{
+	background-color: #ea9999;
+}
+
 .sidebar_box h3 { 
 	font-size: 14px; 
 	font-weight: 700; 
@@ -282,6 +290,7 @@ h6 {
 	width: 220px; 
 	height: 20px; 
 	margin-bottom: 0; 
+	color: #fff;
 }
 
 .sidebar_box span.bottom {
